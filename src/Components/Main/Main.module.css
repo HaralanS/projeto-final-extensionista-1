@@ -1,0 +1,10 @@
+.mainMolecule {
+    background-color: var(--background);
+    max-width: 100%;
+    min-height: calc(100vh - 128px);
+    padding: 60px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgba(0, 0, 255, 0.068); */
+}

@@ -1,0 +1,47 @@
+.backgroundDiv {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(80, 80, 80, 0.418);
+    top: 0;
+
+}
+
+.modalStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: aquamarine;
+    position: fixed;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 1px rgb(0, 0, 0, 0.15);
+    overflow-y: scroll;
+    scrollbar-width: none;
+    max-height: 95vh;
+}
+
+.modalStyle h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.modalStyle h4 {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.modalStyle h5 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media(max-width: 744px) {
+    /* .modalStyle {
+        min-width: 100vw;
+    } */
+}
