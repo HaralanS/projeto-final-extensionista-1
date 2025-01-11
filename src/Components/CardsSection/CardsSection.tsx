@@ -167,12 +167,14 @@ export default function CardSection() {
             <section className={styles.cardSection}>
 
                 <h1>Espécies</h1>
-                <p>Espécies de São Francisco do Sul</p>
+                <p>Explore a diversidade incrível da fauna de São Francisco do Sul! Aqui você encontrará uma coleção de espécies fascinantes, organizadas em categorias como crustáceos, aves, mamíferos, répteis e muito mais.</p>
+                <p>Clique nos cards para descobrir detalhes sobre cada animal, sua importância para o ecossistema e curiosidades que vão surpreender você. Use os filtros para explorar facilmente os diferentes grupos e mergulhe na riqueza natural que faz do nosso litoral um lugar único.</p>
                 <select onChange={setFiltro}>
                     <option value="todos">Todos</option>
                     <option value="Ave">Aves</option>
                     <option value="Réptil">Répteis</option>
                     <option value="Crustáceo">Crustáceos</option>
+                    <option value="Mamífero">Mamíferos</option>
                 </select>
 
                 <div className={styles.cardsContainer}>

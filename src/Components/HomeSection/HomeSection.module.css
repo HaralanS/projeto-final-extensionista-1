@@ -12,6 +12,16 @@
     font-size: 48px;
 }
 
+.linkEspecies {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.linkEspecies:hover {
+    color: var(--secondary);
+}
+
 @media (max-width: 800px) {
     .homeSection {
         width: 100vw;
