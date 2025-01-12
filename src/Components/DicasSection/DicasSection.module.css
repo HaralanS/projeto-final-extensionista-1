@@ -1,0 +1,41 @@
+.dicasSection {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.dicasSection h1 {
+    font-size: 40px;
+    color: var(--primary);
+}
+
+.dicaContainer {
+    /* background-color: red; */
+    width: 100%;
+}
+
+.dicasSection h2 {
+    font-size: 28px;
+    color: var(--primary);
+    text-align: left;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+.linkEspecies {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.linkEspecies:hover {
+    color: var(--secondary);
+}
+
+@media (max-width: 840px) {
+    .dicasSection {
+        width: 90vw;
+    }
+}

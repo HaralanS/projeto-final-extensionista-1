@@ -18,12 +18,14 @@ export default function NavBar() {
                 {!burger && <div className={styles.burgerIcon} onClick={toggleMenu}><MenuIcon/></div>}
                 {!burger ? <div className={styles.navmodule}>
                     <LinkNav to="/">Home</LinkNav>
+                    <LinkNav to="/dicas">Dicas</LinkNav>
                     <LinkNav to="/especies">Especies</LinkNav>
                     <LinkNav to="/contato">Contato</LinkNav>
                     
                 </div> :
                 <div onClick={toggleMenu} className={styles.navburger}>
                     <LinkNav to="/">Home</LinkNav>
+                    <LinkNav to="/dicas">Dicas</LinkNav>
                     <LinkNav to="/especies">Especies</LinkNav>
                     <LinkNav to="/contato">Contato</LinkNav>
                 </div>}
